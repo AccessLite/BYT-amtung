@@ -23,16 +23,17 @@ class FoaasField: JSONConvertible, CustomStringConvertible {
     }
     
     convenience required init?(json: [String : AnyObject]) {
+      
+        // why two guard statements? 
         guard let name = json["name"] as? String else { return nil }
         guard let field = json["field"] as? String else { return nil }
         self.init(name: name, field: field)
     }
     
     func toJson() -> [String : AnyObject] {
-        let myDict: [String : AnyObject] = [
+        return [
             "name" : name as AnyObject,
             "field" : field as AnyObject
         ]
-        return myDict
     }
 }
