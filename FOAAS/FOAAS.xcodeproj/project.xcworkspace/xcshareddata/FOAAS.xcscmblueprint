@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AEFE25D9A1A2DD057612FCB6BF25B77D32AE9ABB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "AEFE25D9A1A2DD057612FCB6BF25B77D32AE9ABB" : 9223372036854775807,
+    "3CCF31241C04A46A70B2ED63F3F9B754376D6710" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "76547A84-8D2B-48A0-AE79-5C3CFB9D7C37",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "AEFE25D9A1A2DD057612FCB6BF25B77D32AE9ABB" : "BYT-amtung\/",
+    "3CCF31241C04A46A70B2ED63F3F9B754376D6710" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FOAAS",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FOAAS\/FOAAS.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/amtung\/AC3.2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3CCF31241C04A46A70B2ED63F3F9B754376D6710"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AccessLite\/BYT-amtung.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AEFE25D9A1A2DD057612FCB6BF25B77D32AE9ABB"
+    }
+  ]
+}

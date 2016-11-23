@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C4096311DE543970062831E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4096301DE543970062831E /* AppDelegate.swift */; };
+		9C4096331DE543970062831E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4096321DE543970062831E /* ViewController.swift */; };
+		9C4096361DE543970062831E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4096341DE543970062831E /* Main.storyboard */; };
+		9C4096381DE543970062831E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C4096371DE543970062831E /* Assets.xcassets */; };
+		9C40963B1DE543970062831E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4096391DE543970062831E /* LaunchScreen.storyboard */; };
+		9C4096431DE543AF0062831E /* Foaas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4096421DE543AF0062831E /* Foaas.swift */; };
+		9C4096451DE543BD0062831E /* FoaasOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4096441DE543BD0062831E /* FoaasOperation.swift */; };
+		9C4096471DE543CA0062831E /* FoaasField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4096461DE543CA0062831E /* FoaasField.swift */; };
+		9C40964A1DE545040062831E /* FoaasProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4096491DE545040062831E /* FoaasProtocols.swift */; };
+		9C40964D1DE545300062831E /* FoaasAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C40964C1DE545300062831E /* FoaasAPIManager.swift */; };
+		9C4096501DE5463B0062831E /* FoaasDataManager  .swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C40964F1DE5463B0062831E /* FoaasDataManager  .swift */; };
+		9C4096521DE546530062831E /* FoaasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4096511DE546530062831E /* FoaasViewController.swift */; };
+		9CDA58811DE546BB00766E4E /* FoaasOperationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA58801DE546BB00766E4E /* FoaasOperationsTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9C40962D1DE543970062831E /* FOAAS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FOAAS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4096301DE543970062831E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C4096321DE543970062831E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C4096351DE543970062831E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C4096371DE543970062831E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C40963A1DE543970062831E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C40963C1DE543970062831E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C4096421DE543AF0062831E /* Foaas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foaas.swift; sourceTree = "<group>"; };
+		9C4096441DE543BD0062831E /* FoaasOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoaasOperation.swift; sourceTree = "<group>"; };
+		9C4096461DE543CA0062831E /* FoaasField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoaasField.swift; sourceTree = "<group>"; };
+		9C4096491DE545040062831E /* FoaasProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoaasProtocols.swift; sourceTree = "<group>"; };
+		9C40964C1DE545300062831E /* FoaasAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoaasAPIManager.swift; sourceTree = "<group>"; };
+		9C40964F1DE5463B0062831E /* FoaasDataManager  .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FoaasDataManager  .swift"; sourceTree = "<group>"; };
+		9C4096511DE546530062831E /* FoaasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoaasViewController.swift; sourceTree = "<group>"; };
+		9CDA58801DE546BB00766E4E /* FoaasOperationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoaasOperationsTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C40962A1DE543970062831E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C4096241DE543970062831E = {
+			isa = PBXGroup;
+			children = (
+				9CDA587F1DE5468A00766E4E /* View Controller */,
+				9C40962F1DE543970062831E /* FOAAS */,
+				9C40962E1DE543970062831E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C40962E1DE543970062831E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C40962D1DE543970062831E /* FOAAS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C40962F1DE543970062831E /* FOAAS */ = {
+			isa = PBXGroup;
+			children = (
+				9C4096301DE543970062831E /* AppDelegate.swift */,
+				9C4096321DE543970062831E /* ViewController.swift */,
+				9C40964B1DE545070062831E /* Protocol */,
+				9C40964E1DE545330062831E /* APIManager */,
+				9C4096481DE543D20062831E /* Model */,
+				9C4096531DE546600062831E /* UI */,
+				9C40963C1DE543970062831E /* Info.plist */,
+			);
+			path = FOAAS;
+			sourceTree = "<group>";
+		};
+		9C4096481DE543D20062831E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9C4096421DE543AF0062831E /* Foaas.swift */,
+				9C4096441DE543BD0062831E /* FoaasOperation.swift */,
+				9C4096461DE543CA0062831E /* FoaasField.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9C40964B1DE545070062831E /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				9C4096491DE545040062831E /* FoaasProtocols.swift */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+		9C40964E1DE545330062831E /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				9C40964C1DE545300062831E /* FoaasAPIManager.swift */,
+				9C40964F1DE5463B0062831E /* FoaasDataManager  .swift */,
+			);
+			name = APIManager;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		9C4096531DE546600062831E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9C4096341DE543970062831E /* Main.storyboard */,
+				9C4096391DE543970062831E /* LaunchScreen.storyboard */,
+				9C4096371DE543970062831E /* Assets.xcassets */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		9CDA587F1DE5468A00766E4E /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9C4096511DE546530062831E /* FoaasViewController.swift */,
+				9CDA58801DE546BB00766E4E /* FoaasOperationsTableViewController.swift */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C40962C1DE543970062831E /* FOAAS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C40963F1DE543970062831E /* Build configuration list for PBXNativeTarget "FOAAS" */;
+			buildPhases = (
+				9C4096291DE543970062831E /* Sources */,
+				9C40962A1DE543970062831E /* Frameworks */,
+				9C40962B1DE543970062831E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FOAAS;
+			productName = FOAAS;
+			productReference = 9C40962D1DE543970062831E /* FOAAS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C4096251DE543970062831E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Annie Tung";
+				TargetAttributes = {
+					9C40962C1DE543970062831E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9F7X637BX9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9C4096281DE543970062831E /* Build configuration list for PBXProject "FOAAS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C4096241DE543970062831E;
+			productRefGroup = 9C40962E1DE543970062831E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C40962C1DE543970062831E /* FOAAS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C40962B1DE543970062831E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C40963B1DE543970062831E /* LaunchScreen.storyboard in Resources */,
+				9C4096381DE543970062831E /* Assets.xcassets in Resources */,
+				9C4096361DE543970062831E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C4096291DE543970062831E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C40964A1DE545040062831E /* FoaasProtocols.swift in Sources */,
+				9C40964D1DE545300062831E /* FoaasAPIManager.swift in Sources */,
+				9C4096501DE5463B0062831E /* FoaasDataManager  .swift in Sources */,
+				9C4096331DE543970062831E /* ViewController.swift in Sources */,
+				9CDA58811DE546BB00766E4E /* FoaasOperationsTableViewController.swift in Sources */,
+				9C4096471DE543CA0062831E /* FoaasField.swift in Sources */,
+				9C4096311DE543970062831E /* AppDelegate.swift in Sources */,
+				9C4096521DE546530062831E /* FoaasViewController.swift in Sources */,
+				9C4096451DE543BD0062831E /* FoaasOperation.swift in Sources */,
+				9C4096431DE543AF0062831E /* Foaas.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C4096341DE543970062831E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C4096351DE543970062831E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C4096391DE543970062831E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C40963A1DE543970062831E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C40963D1DE543970062831E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C40963E1DE543970062831E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C4096401DE543970062831E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9F7X637BX9;
+				INFOPLIST_FILE = FOAAS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tung.annie.c4q.FOAAS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9C4096411DE543970062831E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9F7X637BX9;
+				INFOPLIST_FILE = FOAAS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tung.annie.c4q.FOAAS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C4096281DE543970062831E /* Build configuration list for PBXProject "FOAAS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C40963D1DE543970062831E /* Debug */,
+				9C40963E1DE543970062831E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C40963F1DE543970062831E /* Build configuration list for PBXNativeTarget "FOAAS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C4096401DE543970062831E /* Debug */,
+				9C4096411DE543970062831E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C4096251DE543970062831E /* Project object */;
+}
