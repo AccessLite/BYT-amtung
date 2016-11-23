@@ -13,22 +13,21 @@ class FoaasOperation: JSONConvertible, DataConvertible {
     let name: String
     let url: String
     
-    required init?(json: [String: AnyObject]) {
-        if
-            let name = json["name"] as? String,
-            let url = json["url"] as? String {
-            self.name = name
-            self.url = url
+    init(name: String, url: String) {
+        self.name = name
+        self.url = url
         }
-        else {
-            return nil
-        }
+    
+    convenience required init?(json: [String: AnyObject]) {
+        guard let name = json["name"] as? String else { return nil }
+        guard let url = json["url"] as? String else { return nil }
+        self.init(name: name, url: url)
     }
     
     func toJson() -> [String : AnyObject] {
         let json: [String : AnyObject] = [
-            "name" : self.name as AnyObject,
-            "url" : self.url as AnyObject
+            "name" : name as AnyObject,
+            "url" : url as AnyObject
         ]
         return json
     }
