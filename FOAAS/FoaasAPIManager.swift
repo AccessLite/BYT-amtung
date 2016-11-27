@@ -12,8 +12,9 @@ class FoaasAPIManager {
     
     private static let defaultSession = URLSession(configuration: .default)
     
+    static var foaasURL = URL(string: "http://www.foaas.com/awesome/louis")!
+    
     internal class func getFoaas(url: URL, completion: @escaping (Foaas?)->Void) {
-        // Create URL let url = URL(string: "http://www.foaas.com/awesome/louis")!
         
         // Create request
         var request: URLRequest = URLRequest(url: url)

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9C4096311DE543970062831E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4096301DE543970062831E /* AppDelegate.swift */; };
-		9C4096331DE543970062831E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4096321DE543970062831E /* ViewController.swift */; };
 		9C4096361DE543970062831E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4096341DE543970062831E /* Main.storyboard */; };
 		9C4096381DE543970062831E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C4096371DE543970062831E /* Assets.xcassets */; };
 		9C40963B1DE543970062831E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4096391DE543970062831E /* LaunchScreen.storyboard */; };
@@ -25,7 +24,6 @@
 /* Begin PBXFileReference section */
 		9C40962D1DE543970062831E /* FOAAS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FOAAS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C4096301DE543970062831E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9C4096321DE543970062831E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9C4096351DE543970062831E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C4096371DE543970062831E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C40963A1DE543970062831E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +52,7 @@
 		9C4096241DE543970062831E = {
 			isa = PBXGroup;
 			children = (
+				9C4096531DE546600062831E /* UI */,
 				9CDA587F1DE5468A00766E4E /* View Controller */,
 				9C40962F1DE543970062831E /* FOAAS */,
 				9C40962E1DE543970062831E /* Products */,
@@ -72,11 +71,9 @@
 			isa = PBXGroup;
 			children = (
 				9C4096301DE543970062831E /* AppDelegate.swift */,
-				9C4096321DE543970062831E /* ViewController.swift */,
 				9C40964B1DE545070062831E /* Protocol */,
 				9C40964E1DE545330062831E /* APIManager */,
 				9C4096481DE543D20062831E /* Model */,
-				9C4096531DE546600062831E /* UI */,
 				9C40963C1DE543970062831E /* Info.plist */,
 			);
 			path = FOAAS;
@@ -118,6 +115,7 @@
 				9C4096371DE543970062831E /* Assets.xcassets */,
 			);
 			name = UI;
+			path = FOAAS;
 			sourceTree = "<group>";
 		};
 		9CDA587F1DE5468A00766E4E /* View Controller */ = {
@@ -205,7 +203,6 @@
 				9C40964A1DE545040062831E /* FoaasProtocols.swift in Sources */,
 				9C40964D1DE545300062831E /* FoaasAPIManager.swift in Sources */,
 				9C4096501DE5463B0062831E /* FoaasDataManager  .swift in Sources */,
-				9C4096331DE543970062831E /* ViewController.swift in Sources */,
 				9CDA58811DE546BB00766E4E /* FoaasOperationsTableViewController.swift in Sources */,
 				9C4096471DE543CA0062831E /* FoaasField.swift in Sources */,
 				9C4096311DE543970062831E /* AppDelegate.swift in Sources */,

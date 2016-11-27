@@ -10,17 +10,20 @@ import UIKit
 
 class FoaasViewController: UIViewController {
 
+    // MARK: - Outlets
+    @IBOutlet weak var mainTextLabel: UILabel!
+    @IBOutlet weak var subtitleTextLabel: UILabel!
+    @IBOutlet weak var button: UIButton!
+    
+    @IBAction func buttonTapped(_ sender: UIButton) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
+    // MARK: - Methods
 
     /*
     // MARK: - Navigation
