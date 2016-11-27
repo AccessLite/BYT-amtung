@@ -42,18 +42,18 @@ class FoaasOperation: JSONConvertible, DataConvertible {
     
     // MARK: - JSONConvertible
     func toJson() -> [String : AnyObject] {
-        let json: [String : AnyObject] = [
+        return [
             "name" : name as AnyObject,
             "url" : url as AnyObject,
             "field" : fields as AnyObject
         ]
-        return json
     }
     
     required convenience init?(json: [String: AnyObject]) {
-        guard let name = json["name"] as? String else { return nil }
-        guard let url = json["url"] as? String else { return nil }
-        guard let fields = json["fields"] as? [[String:AnyObject]] else { return nil }
+        guard
+            let name = json["name"] as? String,
+            let url = json["url"] as? String,
+            let fields = json["fields"] as? [[String:AnyObject]] else { return nil }
         
         var allTheFields: [FoaasField] = []
         

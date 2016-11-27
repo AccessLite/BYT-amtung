@@ -15,7 +15,7 @@ class Foaas: JSONConvertible, CustomStringConvertible {
     
     // MARK: - CustomStringConvertible
     var description: String {
-        return "\(message) + \(subtitle)"
+        return "\(message) \(subtitle)"
     }
     
     // MARK: - Initializer
@@ -26,16 +26,16 @@ class Foaas: JSONConvertible, CustomStringConvertible {
     
     // MARK: - JSONConvertible
     func toJson() -> [String : AnyObject] {
-        let myDict: [String : AnyObject] = [
+        return [
             "message" : message as AnyObject,
             "subtitle" : subtitle as AnyObject
         ]
-        return myDict
     }
     
     convenience required init?(json: [String : AnyObject]) {
-        guard let message = json["message"] as? String else { return nil }
-        guard let subtitle = json["subtitle"] as? String else { return nil }
+        guard
+            let message = json["message"] as? String,
+            let subtitle = json["subtitle"] as? String else { return nil }
         self.init(message: message, subtitle: subtitle)
     }
 }
